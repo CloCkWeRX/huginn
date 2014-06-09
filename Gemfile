@@ -76,6 +76,8 @@ gem 'therubyracer', '~> 0.12.1'
 
 gem 'mqtt'
 
+gem 'nike_v2'
+
 group :development do
   gem 'binding_of_caller'
   gem 'better_errors'
