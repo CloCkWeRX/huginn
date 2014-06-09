@@ -43,7 +43,7 @@ module Agents
 
     def check
       http = Net::HTTP.new('ws.audioscrobbler.com')
-      response = http.request(Net::HTTP::Get.new("/2.0/?method=user.getrecenttracks&user=#{username}&api_key=#{api_key}"))
+      response = http.request(Net::HTTP::Get.new("/2.0/?method=user.getrecenttracks&user=#{options['username']}&api_key=#{options['api_key']}"))
       response_status = XmlSimple.xml_in(response.body, { 'ForceArray' => false })
 
       if response_status['status'] == "failed"
