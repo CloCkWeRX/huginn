@@ -308,6 +308,7 @@ GEM
       addressable
       httparty (> 0.6.0)
       json (> 1.4.0)
+    xml-simple (1.1.2)
     xmpp4r (0.5.6)
 
 PLATFORMS
@@ -369,4 +370,5 @@ DEPENDENCIES
   webmock
   weibo_2 (~> 0.1.4)
   wunderground (~> 1.2.0)
+  xml-simple
   xmpp4r (~> 0.5.6)

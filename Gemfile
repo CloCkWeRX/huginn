@@ -74,6 +74,8 @@ gem 'slack-notifier', '~> 0.5.0'
 
 gem 'therubyracer', '~> 0.12.1'
 
+gem 'xml-simple'
+
 gem 'mqtt'
 
 group :development do
